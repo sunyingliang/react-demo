@@ -28,6 +28,7 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
@@ -37,6 +38,8 @@
     "json-loader": "^0.5.7",
     "morgan": "^1.9.0",
     "pug": "^2.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
     "webpack": "^4.9.1",
     "webpack-dev-middleware": "^3.1.3"
   },

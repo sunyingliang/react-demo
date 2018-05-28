@@ -2,20 +2,18 @@
  * index.js
  */
 
-import {add, subtract, createObject, multiby} from './module';
-//import {add, subtract} from './module';
-import styles from './style.css';
+import React from 'react';
+import { render } from 'react-dom';
 
 if (module.hot) {
     module.hot.accept();
 }
 
-const resultA = add(1, 2);
-const resultB = subtract(3, 1);
-const resultC = createObject({'name':'tim'});
-const resultD = multiby(2, 4);
+const MainApp = () => (
+    <h1>Hello React2!</h1>
+);
 
-console.log(resultA, resultB, resultC, resultD);
-console.log(styles.globalClass);
-console.log(styles.localClass);
-console.log(process.env.APP_NAME)
+render(
+    <MainApp />,
+    document.getElementById('app')
+);
